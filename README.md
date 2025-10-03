@@ -38,6 +38,7 @@ https://gitlab.gnome.org/GNOME/vte/-/merge_requests/9
 ...konsole
 https://bugs.kde.org/show_bug.cgi?id=484044
 https://bugs.kde.org/show_bug.cgi?id=435975
+--> patches welcome in both :) 1st win32, its simplier and gnome is ready to accept it
 +kitty
 
 4. Full set of keys/combinations (e.g. Ctrl+Enter) support
@@ -122,4 +123,11 @@ https://github.com/magiblot/tvision/issues?q=author%3Aunxed
 
 turbo issues:
 https://github.com/magiblot/turbo/issues?q=author%3Aunxed
+
+---
+
+Todo:
+
+xclip/wl-copy support in FV
+https://gitlab.com/freepascal.org/fpc/source/-/issues/41278#note_2595445152
 
