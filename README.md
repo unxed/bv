@@ -111,6 +111,9 @@ in editor: -
 Navigation with arrow keys in TInputLine, fv
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
 
+Ctrl+Arrows incorrectly behave on spaces in fv
+https://github.com/magiblot/tvision/issues/193
+
 ---
 
 FV issues:
