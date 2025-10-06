@@ -38,6 +38,7 @@ https://gitlab.gnome.org/GNOME/vte/-/merge_requests/9
 ...konsole
 https://bugs.kde.org/show_bug.cgi?id=484044
 https://bugs.kde.org/show_bug.cgi?id=435975
+https://invent.kde.org/utilities/konsole
 --> patches welcome in both :) 1st win32, its simplier and gnome is ready to accept it
 +kitty
 
@@ -108,9 +109,10 @@ https://github.com/magiblot/tvision/issues/178
 in editor: +
 
 ...fv
-input line bug
+input line bugs
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41278
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41281
+https://gitlab.com/freepascal.org/fpc/source/-/issues/41432
 in editor: -
 
 ---
