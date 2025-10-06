@@ -25,7 +25,7 @@ https://gitlab.gnome.org/GNOME/vte/-/issues/2495
 +konsole
 +kitty
 
-3. Keyup events
+3. Keyup events & full set of keys/combinations (e.g. Ctrl+Enter) support
 ...tvision
 https://github.com/magiblot/tvision/issues/186
 ...fvision
@@ -35,26 +35,14 @@ https://gitlab.com/freepascal.org/fpc/source/-/issues/34190
 https://gitlab.gnome.org/GNOME/vte/-/issues/2601
 https://gitlab.gnome.org/GNOME/vte/-/issues/2764
 https://gitlab.gnome.org/GNOME/vte/-/merge_requests/9
+at least they are ready to support win32im
 ...konsole
 https://bugs.kde.org/show_bug.cgi?id=484044
 https://bugs.kde.org/show_bug.cgi?id=435975
 https://invent.kde.org/utilities/konsole/-/merge_requests/1133
---> patches welcome in both :) 1st win32, its simplier and gnome is ready to accept it
 +kitty
 
-4. Full set of keys/combinations (e.g. Ctrl+Enter) support
-+tvision
-+fvision
-+far2l
-...gnometerm
-https://gitlab.gnome.org/GNOME/vte/-/issues/2601
-https://gitlab.gnome.org/GNOME/vte/-/merge_requests/9
-...konsole
-https://bugs.kde.org/show_bug.cgi?id=484044
-https://bugs.kde.org/show_bug.cgi?id=435975
-+kitty
-
-5. Correct hotkey handling via (3): any lang, any layout, w/wo modifiers, inside menus and not
+4. Correct hotkey handling via (3): any lang, any layout, w/wo modifiers, inside menus and not
 
 ...tvision
 no support for base layout key field
@@ -70,9 +58,9 @@ bug with getting layout independent key code in kitty
 https://gitlab.com/freepascal.org/fpc/source/-/merge_requests/1138#note_2734741741
 needs testing after it
 
-6. UI/UX patterns following best software design practices
+5. UI/UX patterns following best software design practices
 
-6.1. Navigation wia arrow keys
+5.1. Navigation wia arrow keys
 
 ...tv patch uploaded
 PR: Enable arrow keys for navigation
@@ -80,7 +68,7 @@ https://github.com/magiblot/tvision/pull/188
 
 +fv
 
-6.2. Open file window as in FreeVision
+5.2. Open file window as in FreeVision
 
 ...tv patch uploaded
 https://github.com/magiblot/tvision/pull/185
@@ -89,7 +77,7 @@ https://github.com/magiblot/tvision/pull/185
 minor (mr ready)
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41433
 
-6.3. If no action uses ESC key, it should always close current dialog/window
+5.3. If no action uses ESC key, it should always close current dialog/window
 
 ...tv
 - bug in Open file window
@@ -100,11 +88,9 @@ https://github.com/magiblot/tvision/pull/190
 https://github.com/magiblot/turbo/issues/58
 
 ...fv
-a bug with KeyDown->ESC in "Chosen file" field
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41430
 - exit hotkey is not Esc
 
-6.4. Clipboard working in all controls
+5.4. Clipboard working in all controls
 
 ...tv
 input box bug
@@ -116,11 +102,14 @@ in editor: +
 ...fv
 - input line bugs
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41278
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41281
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41432
 - copy by python script
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41434
 in editor: -
+
+5.5. Misc
+
+Navigation with arrow keys in TInputLine, fv
+https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
 
 ---
 
