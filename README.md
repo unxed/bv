@@ -129,3 +129,6 @@ https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
 Todo:
 https://github.com/magiblot/tvision/issues/193
 https://github.com/magiblot/tvision/issues/186
+
+TV/FV even have no mechanics to link top menu item to key code, not char code, if they differs.
+Hotkey is defined as char from item name, like ~F~ile. So you can not link Файл to LatinA (same as Ф)
