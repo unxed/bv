@@ -45,12 +45,7 @@ https://invent.kde.org/utilities/konsole/-/merge_requests/1133
 4. Correct hotkey handling via (3): any lang, any layout, w/wo modifiers, inside menus and not
 
 ...tvision
-no support for base layout key field
-https://github.com/magiblot/turbo/issues/87
-https://github.com/magiblot/turbo/issues/90
-patch uploaded (fixes both 87 and 90), needs testing after it:
-https://github.com/magiblot/tvision/pull/184
-on how it should work from users point of view (comparing to GTK, Qt, Windows):
+menu hot keys in non-latin layouts
 https://github.com/magiblot/tvision/issues/99
 
 ...fvision
@@ -133,3 +128,4 @@ https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
 
 Todo:
 https://github.com/magiblot/tvision/issues/193
+https://github.com/magiblot/tvision/issues/186
