@@ -52,6 +52,8 @@ https://github.com/magiblot/tvision/issues/99
 bug with getting layout independent key code in kitty
 https://gitlab.com/freepascal.org/fpc/source/-/merge_requests/1138#note_2734741741
 needs testing after it
+also, no support for Russian hotkeys
+https://gitlab.com/freepascal.org/fpc/source/-/issues/41445
 
 5. UI/UX patterns following best software design practices
 
