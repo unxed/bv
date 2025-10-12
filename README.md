@@ -48,7 +48,7 @@ https://invent.kde.org/utilities/konsole/-/merge_requests/1133
 no support for base layout key field
 https://github.com/magiblot/turbo/issues/87
 https://github.com/magiblot/turbo/issues/90
-patch uploaded, needs testing after it:
+patch uploaded (fixes both 87 and 90), needs testing after it:
 https://github.com/magiblot/tvision/pull/184
 on how it should work from users point of view (comparing to GTK, Qt, Windows):
 https://github.com/magiblot/tvision/issues/99
@@ -125,3 +125,11 @@ https://github.com/magiblot/tvision/issues?q=author%3Aunxed
 turbo issues:
 https://github.com/magiblot/turbo/issues?q=author%3Aunxed
 
+--
+
+MR needed:
+https://gitlab.com/freepascal.org/fpc/source/-/issues/41278
+https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
+
+Todo:
+https://github.com/magiblot/tvision/issues/193
