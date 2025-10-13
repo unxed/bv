@@ -45,14 +45,14 @@ https://invent.kde.org/utilities/konsole/-/merge_requests/1133
 4. Correct hotkey handling via (3): any lang, any layout, w/wo modifiers, inside menus and not
 
 ...tvision
-menu hot keys in non-latin layouts
+non-latin menu hot keys problem
 https://github.com/magiblot/tvision/issues/99
 
 ...fvision
 bug with getting layout independent key code in kitty
 https://gitlab.com/freepascal.org/fpc/source/-/merge_requests/1138#note_2734741741
 needs testing after it
-also, no support for Russian hotkeys
+also, non-latin menu hot keys problem
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41445
 
 5. UI/UX patterns following best software design practices
@@ -71,8 +71,6 @@ https://github.com/magiblot/tvision/pull/188
 https://github.com/magiblot/tvision/pull/185
 
 +fv
-minor (mr ready)
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41433
 
 5.3. If no action uses ESC key, it should always close current dialog/window
 
@@ -97,8 +95,6 @@ https://github.com/magiblot/tvision/issues/191
 in editor: +
 
 ...fv
-- input line bugs
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41278
 - copy by python script
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41434
 in editor: -
@@ -108,8 +104,12 @@ in editor: -
 Navigation with arrow keys in TInputLine, fv
 https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
 
-Ctrl+Arrows incorrectly behave on spaces in fv
+Ctrl+Arrows incorrectly behave on spaces in tv
 https://github.com/magiblot/tvision/issues/193
+
+TV/FV even have no mechanics to link top menu item to key code, not char code, if they differs.
+Hotkey is defined as char from item name, like ~F~ile. So you can not link Файл to LatinA (same as Ф)
+https://github.com/magiblot/tvision/issues/99#issuecomment-3395287967
 
 ---
 
@@ -122,15 +122,3 @@ https://github.com/magiblot/tvision/issues?q=author%3Aunxed
 turbo issues:
 https://github.com/magiblot/turbo/issues?q=author%3Aunxed
 
---
-
-MR needed:
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41278
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
-
-Todo:
-https://github.com/magiblot/tvision/issues/193
-https://github.com/magiblot/tvision/issues/99
-
-TV/FV even have no mechanics to link top menu item to key code, not char code, if they differs.
-Hotkey is defined as char from item name, like ~F~ile. So you can not link Файл to LatinA (same as Ф)
