@@ -8,7 +8,7 @@ All non-pluses should have a link to a relevant issue
 
 ---
 
-1. Clip: Bracketed paste или OSC52 read или far2l read
+1. Clip: Bracketed paste or OSC52 read or far2l read
 +tvision
 +fvision
 +far2l
@@ -16,7 +16,7 @@ All non-pluses should have a link to a relevant issue
 +konsole
 +kitty
 
-2. Clip: OSC52 write или kitty write или far2l write
+2. Clip: OSC52 write or kitty write or far2l write
 +tvision
 +fvision
 +far2l
