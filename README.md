@@ -48,12 +48,7 @@ https://invent.kde.org/utilities/konsole/-/merge_requests/1133
 non-latin menu hot keys problem
 https://github.com/magiblot/tvision/issues/99
 
-...fvision
-bug with getting layout independent key code in kitty
-https://gitlab.com/freepascal.org/fpc/source/-/merge_requests/1138#note_2734741741
-needs testing after it
-also, non-latin menu hot keys problem
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41445
++fv
 
 5. UI/UX patterns following best software design practices
 
@@ -117,8 +112,7 @@ FV issues:
 https://gitlab.com/freepascal.org/fpc/source/-/issues?author_username=unxed
 
 TV issues:
-https://github.com/magiblot/tvision/issues?q=author%3Aunxed
+https://github.com/magiblot/tvision/issues?q=author%3Aunxed%20state%3Aopen
 
 turbo issues:
-https://github.com/magiblot/turbo/issues?q=author%3Aunxed
-
+https://github.com/magiblot/turbo/issues?q=author%3Aunxed%20state%3Aopen
