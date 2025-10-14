@@ -106,6 +106,15 @@ TV/FV even have no mechanics to link top menu item to key code, not char code, i
 Hotkey is defined as char from item name, like ~F~ile. So you can not link Файл to LatinA (same as Ф)
 https://github.com/magiblot/tvision/issues/99#issuecomment-3395287967
 
+
+FV:
+
+1) Ctrl+arrow keys only navigate spaces, but they should also navigate any punctuation
+
+2) Ctrl+arrow keys move cursor beyond the end of the line if it contains non-Latin letters
+
+3) "Window ~3~" in testuapp: "3" (digit 3) hotkey stopped working after my changes
+
 ---
 
 FV issues:
