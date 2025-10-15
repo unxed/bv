@@ -90,14 +90,9 @@ https://github.com/magiblot/tvision/issues/191
 in editor: +
 
 ...fv
-- copy by python script
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41434
 in editor: -
 
 5.5. Misc
-
-Navigation with arrow keys in TInputLine, fv
-https://gitlab.com/freepascal.org/fpc/source/-/issues/41435
 
 Ctrl+Arrows incorrectly behave on spaces in tv
 https://github.com/magiblot/tvision/issues/193
@@ -109,11 +104,20 @@ https://github.com/magiblot/tvision/issues/99#issuecomment-3395287967
 
 FV:
 
-1) Ctrl+arrow keys only navigate spaces, but they should also navigate any punctuation
+1) Alt+X for exit works only in en kb layout
 
-2) Ctrl+arrow keys move cursor beyond the end of the line if it contains non-Latin letters
+2) Inner menu hotkeys work only in en kb layout
 
-3) "Window ~3~" in testuapp: "3" (digit 3) hotkey stopped working after my changes
+3) Ctrl+Up/Down should scroll text in editor
+
+4) F9 to open menu
+
+5) Tests for correct parsing of kitty and win32 input mode ESC seqs
+
+
+TV:
+
+Ctrl+arrow keys only navigate spaces, but they should also navigate any punctuation
 
 ---
 
