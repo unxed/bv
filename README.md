@@ -112,7 +112,11 @@ FV:
 
 4) F9 to open menu
 
-5) Tests for correct parsing of kitty and win32 input mode ESC seqs
+5) Tests for correct parsing of kitty and win32 input mode ESC seqs.
+Give LLM both protocols specs and ask it to write tests that cover all potential problem areas.
+These should definitely include tests for what I fixed in recent commits.
+
+6) Gaps in Russian typing in kitty mode
 
 
 TV:
