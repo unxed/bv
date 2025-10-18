@@ -104,19 +104,17 @@ https://github.com/magiblot/tvision/issues/99#issuecomment-3395287967
 
 FV:
 
-1) Alt+X for exit works only in en kb layout
+1) Ctrl+Up/Down should scroll text in editor
 
-2) Inner menu hotkeys work only in en kb layout
+2) F9 to open menu
 
-3) Ctrl+Up/Down should scroll text in editor
+3) Formalize the key event fields content and verify their correctness
+for all typical key combinations in Russian and English keyboard layouts.
+See dn3l/_fv_tests.txt
 
-4) F9 to open menu
-
-5) Tests for correct parsing of kitty and win32 input mode ESC seqs.
+4) Tests for correct parsing of kitty and win32 input mode ESC seqs.
 Give LLM both protocols specs and ask it to write tests that cover all potential problem areas.
 These should definitely include tests for what I fixed in recent commits.
-
-6) Gaps in Russian typing in kitty mode
 
 
 TV:
