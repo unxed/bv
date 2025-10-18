@@ -122,6 +122,9 @@ These should definitely include tests for what I fixed in recent commits.
 
 6) Gaps in Russian typing in kitty mode
 
+7) far2l: incorrect vkk on Russian letters presses (even w/o IME)
+
+
 TV:
 
 Ctrl+arrow keys only navigate spaces, but they should also navigate any punctuation
