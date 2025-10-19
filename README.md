@@ -116,6 +116,8 @@ See dn3l/_fv_tests.txt
 Give LLM both protocols specs and ask it to write tests that cover all potential problem areas.
 These should definitely include tests for what I fixed in recent commits.
 
+5) Dialogs: scancode-based hot keys (like in menus)
+
 
 TV:
 
